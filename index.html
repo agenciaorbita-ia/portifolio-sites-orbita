@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Órbita — Sites e Landing Pages que Geram Resultado</title>
+  <meta name="description" content="Criamos sites, landing pages e sistemas que atraem, convertem e escalam o seu negócio. Conheça o portfólio de sites da Agência Órbita.">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Órbita — Sites e Landing Pages que Geram Resultado">
+  <meta property="og:description" content="Sites, landing pages e sistemas que atraem, convertem e escalam o seu negócio.">
+  <meta property="og:type" content="website">
+  <!-- TODO: definir og:image quando houver arte de compartilhamento -->
+  <link rel="icon" type="image/png" href="assets/logo-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;500;600;700&family=Instrument+Serif&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="header" id="topo">
+    <div class="container header__inner">
+      <a href="#topo" class="header__logo" aria-label="Órbita — início">
+        <img src="assets/logo-icon.png" alt="" class="logo-icon">
+        <span class="logo-text">ÓRBITA<span class="logo-dot">.</span></span>
+      </a>
+      <nav class="nav" id="menu" aria-label="Navegação principal">
+        <ul class="nav__list">
+          <li><a href="#servicos" class="nav__link">Serviços</a></li>
+          <li><a href="#para-quem" class="nav__link">Para quem</a></li>
+          <li><a href="#portfolio" class="nav__link">Portfólio</a></li>
+          <li><a href="#diferenciais" class="nav__link">Diferenciais</a></li>
+          <li><a href="#faq" class="nav__link">FAQ</a></li>
+          <li><a href="#contato" class="nav__link nav__link--cta">Fale com o time</a></li>
+        </ul>
+      </nav>
+      <button class="header__toggle" id="menu-toggle" aria-expanded="false" aria-controls="menu" aria-label="Abrir menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero">
+      <div class="hero__orbits" aria-hidden="true">
+        <span class="orbit orbit--1"></span>
+        <span class="orbit orbit--2"></span>
+        <span class="orbit orbit--3"></span>
+        <span class="orbit orbit--4"></span>
+      </div>
+      <div class="container hero__inner">
+        <p class="badge reveal">✦ Estrutura digital que gera resultado</p>
+        <h1 class="hero__title reveal">Criamos o site que faz<br>o seu negócio <em>vender&nbsp;mais</em></h1>
+        <p class="hero__subtitle reveal">Sites, landing pages e sistemas que atraem, convertem
+          e escalam do primeiro clique ao lead no seu WhatsApp.</p>
+        <div class="hero__actions reveal">
+          <a href="#servicos" class="btn btn--primary">Conhecer serviços</a>
+          <a href="#portfolio" class="btn btn--ghost">▶ Ver cases</a>
+        </div>
+        <ul class="hero__trust reveal" aria-label="Por que confiar na Órbita">
+          <li><span class="trust-num">Conversão</span><span class="trust-label">como métrica principal</span></li>
+          <li><span class="trust-num">Atuação nacional</span><span class="trust-label">Atendemos todo Brasil</span></li>
+          <li><span class="trust-num">Ecossistema</span><span class="trust-label">site + app + CRM</span></li>
+        </ul>
+        <!-- TODO: adicionar logos de clientes atendidos quando os cases forem enviados -->
+      </div>
+      <div class="hero__glow" aria-hidden="true"></div>
+    </section>
+
+    <!-- ===== SERVIÇOS ===== -->
+    <section class="section" id="servicos">
+      <div class="container">
+        <h2 class="section__title reveal">O que a gente faz por <em>você</em></h2>
+        <p class="section__lead reveal">Desenhamos e desenvolvemos páginas e sistemas com foco no que
+          importa: clareza, velocidade e um caminho óbvio para o visitante agir. Tudo conversa com o
+          objetivo do seu negócio.</p>
+
+        <div class="cards">
+          <article class="card reveal">
+            <header class="card__head">
+              <h3>Landing Pages</h3>
+              <span class="card__arrow" aria-hidden="true">→</span>
+            </header>
+            <!-- Leque de capturas (abre no hover) — TODO: trocar por prints reais de landing pages -->
+            <div class="card__media deck" aria-hidden="true">
+              <div class="deck__stage">
+                <div class="deck__item" style="--x:0%; --tx:0%; --ri:-3deg; --r:-5deg; z-index:3"><img src="assets/services/lp-1.jpg" alt="" loading="lazy" draggable="false"></div>
+                <div class="deck__item" style="--x:14%; --tx:26%; --ri:-1deg; --r:0deg; z-index:2"><img src="assets/services/lp-2.jpg" alt="" loading="lazy" draggable="false"></div>
+                <div class="deck__item" style="--x:28%; --tx:52%; --ri:1deg; --r:5deg; z-index:1"><img src="assets/services/lp-3.jpg" alt="" loading="lazy" draggable="false"></div>
+              </div>
+            </div>
+            <p class="card__tags"><span class="tag">✦ Execução sob medida</span><span class="tag tag--dot">Foco em conversão</span></p>
+            <p>Página construída para um fim específico: captar lead ou vender direto. Sem distrações,
+              mensagem clara e foco total na ação que importa.</p>
+            <a class="btn btn--small" href="precos.html#site-one-page">Saiba mais</a>
+          </article>
+
+          <article class="card reveal">
+            <header class="card__head">
+              <h3>Sites Institucionais</h3>
+              <span class="card__arrow" aria-hidden="true">→</span>
+            </header>
+            <!-- Leque com capturas reais dos sites institucionais entregues -->
+            <div class="card__media deck" aria-hidden="true">
+              <div class="deck__stage">
+                <div class="deck__item" style="--x:0%; --tx:0%; --ri:-3deg; --r:-5deg; z-index:3"><img src="assets/services/inst-1.jpg" alt="" loading="lazy" draggable="false"></div>
+                <div class="deck__item" style="--x:14%; --tx:26%; --ri:-1deg; --r:0deg; z-index:2"><img src="assets/services/inst-2.jpg" alt="" loading="lazy" draggable="false"></div>
+                <div class="deck__item" style="--x:28%; --tx:52%; --ri:1deg; --r:5deg; z-index:1"><img src="assets/services/inst-3.jpg" alt="" loading="lazy" draggable="false"></div>
+              </div>
+            </div>
+            <p class="card__tags"><span class="tag">✦ Execução sob medida</span><span class="tag tag--dot">Foco em conversão</span></p>
+            <p>Mais do que presença: a prova da força da sua marca. Quem vocês são, o que entregam
+              e por que confiar — organizado para converter visita em contato.</p>
+            <a class="btn btn--small" href="precos.html#site-institucional">Saiba mais</a>
+          </article>
+
+          <article class="card reveal">
+            <header class="card__head">
+              <h3>Sistemas &amp; Integrações</h3>
+              <span class="card__arrow" aria-hidden="true">→</span>
+            </header>
+            <!-- Leque de capturas (abre no hover) — TODO: trocar por prints reais de apps/painéis -->
+            <div class="card__media deck" aria-hidden="true">
+              <div class="deck__stage">
+                <div class="deck__item" style="--x:0%; --tx:0%; --ri:-3deg; --r:-5deg; z-index:3"><img src="assets/services/sys-1.jpg" alt="" loading="lazy" draggable="false"></div>
+                <div class="deck__item" style="--x:14%; --tx:26%; --ri:-1deg; --r:0deg; z-index:2"><img src="assets/services/sys-2.jpg" alt="" loading="lazy" draggable="false"></div>
+                <div class="deck__item" style="--x:28%; --tx:52%; --ri:1deg; --r:5deg; z-index:1"><img src="assets/services/sys-3.jpg" alt="" loading="lazy" draggable="false"></div>
+              </div>
+            </div>
+            <p class="card__tags"><span class="tag">✦ Execução sob medida</span><span class="tag tag--dot">Operação conectada</span></p>
+            <p>CRM, painéis e apps conectados ao seu site. O lead entra na página e cai direto
+              no seu processo comercial — sem planilha, sem retrabalho.</p>
+            <a class="btn btn--small" href="precos.html#app-web">Saiba mais</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PARA QUEM ===== -->
+    <section class="section section--alt" id="para-quem">
+      <div class="container">
+        <h2 class="section__title reveal">Para quem é a <em>Órbita</em></h2>
+        <p class="section__lead reveal">Estruturas diferentes para momentos diferentes, do primeiro
+          site à operação que precisa escalar.</p>
+        <ul class="orbit-grid reveal" aria-label="Perfis atendidos">
+          <li class="orbit-chip">📍 PME local</li>
+          <li class="orbit-chip">🚀 Do zero no digital</li>
+          <li class="orbit-chip">🛒 Venda online</li>
+          <li class="orbit-chip">💼 Autônomos &amp; profissionais</li>
+          <li class="orbit-chip">📈 Negócios em expansão</li>
+          <li class="orbit-chip orbit-chip--core">✦ E além</li>
+        </ul>
+        <a href="#contato" class="banner-cta reveal">
+          <span>✦ Quer estruturar o seu negócio? <strong>Fale com o time</strong></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ===== PORTFÓLIO ===== -->
+    <section class="section" id="portfolio">
+      <div class="container">
+        <h2 class="section__title reveal">Projetos que já estão em <em>órbita</em></h2>
+        <p class="section__lead reveal">Sites e landing pages entregues para negócios reais.
+          <span class="slider-hint">Passe o mouse (ou toque) sobre um projeto para percorrer a página inteira.</span></p>
+
+        <!-- Esteira infinita de cases (estilo marquee): capturas de página inteira, sem link externo.
+             Para adicionar um case: incluir o mesmo <article class="pf-card"> NOS DOIS
+             grupos (.pf-group), apontando a imagem em assets/cases/ e ajustando categoria + nome. -->
+        <div class="marquee-bleed reveal">
+          <div class="pf-carousel" id="pf-carousel" aria-label="Carrossel de projetos do portfólio">
+            <div class="pf-fade pf-fade--left" aria-hidden="true"></div>
+            <div class="pf-fade pf-fade--right" aria-hidden="true"></div>
+            <div class="pf-viewport">
+              <div class="pf-track">
+                <div class="pf-group">
+                  <article class="pf-card" tabindex="0">
+                    <div class="pf-card__viewport">
+                      <img src="assets/cases/adelaide-festas.jpg" alt="Página completa do site Adelaide Festas e Buffet" loading="lazy" draggable="false">
+                    </div>
+                    <span class="pf-card__hint" aria-hidden="true">Passe o mouse para ver a página</span>
+                    <div class="pf-card__overlay" aria-hidden="true"></div>
+                    <div class="pf-card__caption">
+                      <span class="pf-card__cat">Site institucional</span>
+                      <span class="pf-card__name">Adelaide Festas &amp; Buffet</span>
+                    </div>
+                  </article>
+                  <article class="pf-card" tabindex="0">
+                    <div class="pf-card__viewport">
+                      <img src="assets/cases/my-drink.jpg" alt="Página completa do site My Drink Coquetelaria" loading="lazy" draggable="false">
+                    </div>
+                    <span class="pf-card__hint" aria-hidden="true">Passe o mouse para ver a página</span>
+                    <div class="pf-card__overlay" aria-hidden="true"></div>
+                    <div class="pf-card__caption">
+                      <span class="pf-card__cat">Site institucional</span>
+                      <span class="pf-card__name">My Drink Coquetelaria</span>
+                    </div>
+                  </article>
+                  <article class="pf-card" tabindex="0">
+                    <div class="pf-card__viewport">
+                      <img src="assets/cases/churrascaria-encantado.jpg" alt="Página completa do site Churrascaria Encantado" loading="lazy" draggable="false">
+                    </div>
+                    <span class="pf-card__hint" aria-hidden="true">Passe o mouse para ver a página</span>
+                    <div class="pf-card__overlay" aria-hidden="true"></div>
+                    <div class="pf-card__caption">
+                      <span class="pf-card__cat">Site institucional</span>
+                      <span class="pf-card__name">Churrascaria Encantado</span>
+                    </div>
+                  </article>
+                  <article class="pf-card" tabindex="0">
+                    <div class="pf-card__viewport">
+                      <img src="assets/cases/josi-ferreira.jpg" alt="Página completa do site Josi Ferreira Corretora" loading="lazy" draggable="false">
+                    </div>
+                    <span class="pf-card__hint" aria-hidden="true">Passe o mouse para ver a página</span>
+                    <div class="pf-card__overlay" aria-hidden="true"></div>
+                    <div class="pf-card__caption">
+                      <span class="pf-card__cat">Site institucional</span>
+                      <span class="pf-card__name">Josi Ferreira Corretora</span>
+                    </div>
+                  </article>
+                  <article class="pf-card" tabindex="0">
+                    <div class="pf-card__viewport">
+                      <img src="assets/cases/sejur-imobiliaria.jpg" alt="Página completa do site Sejur Imobiliária" loading="lazy" draggable="false">
+                    </div>
+                    <span class="pf-card__hint" aria-hidden="true">Passe o mouse para ver a página</span>
+                    <div class="pf-card__overlay" aria-hidden="true"></div>
+                    <div class="pf-card__caption">
+                      <span class="pf-card__cat">Site institucional</span>
+                      <span class="pf-card__name">Sejur Imobiliária</span>
+                    </div>
+                  </article>
+                </div>
+                <!-- Grupo duplicado para o loop infinito (gerado por JS) -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== DIFERENCIAIS ===== -->
+    <section class="section section--alt" id="diferenciais">
+      <div class="container">
+        <h2 class="section__title reveal">Por que a <em>Órbita</em></h2>
+        <ol class="diffs">
+          <li class="diff reveal">
+            <p class="diff__num">01 / 04</p>
+            <h3 class="diff__title">Investimento claro</h3>
+            <p class="diff__tag">Sem surpresa</p>
+            <p>Proposta fechada antes de começar. Você sabe o que recebe, quando recebe e quanto custa.</p>
+          </li>
+          <li class="diff reveal">
+            <p class="diff__num">02 / 04</p>
+            <h3 class="diff__title">Quem faz, atende</h3>
+            <p class="diff__tag">Conversa direta</p>
+            <p>Você fala com quem desenha e entrega. Menos ida e volta.</p>
+          </li>
+          <li class="diff reveal">
+            <p class="diff__num">03 / 04</p>
+            <h3 class="diff__title">Resultado real</h3>
+            <p class="diff__tag">Conversão primeiro</p>
+            <p>Site bonito é consequência. O projeto é desenhado em volta da ação que gera negócio.</p>
+          </li>
+          <li class="diff reveal">
+            <p class="diff__num">04 / 04</p>
+            <h3 class="diff__title">Pronto para escalar</h3>
+            <p class="diff__tag">Ecossistema conectado</p>
+            <p>Site, app e CRM conectados desde o primeiro dia. A estrutura cresce junto com o seu
+              negócio, sem refazer nada.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ===== DEPOIMENTOS ===== -->
+    <section class="section" id="depoimentos">
+      <div class="container">
+        <h2 class="section__title reveal">Quem já orbita com a gente</h2>
+        <!-- ATENÇÃO: depoimentos ilustrativos criados a partir dos nomes dos clientes.
+             Validar/substituir pelo texto real de cada cliente antes de publicar.
+             Esteira contínua: o grupo espelho do loop é gerado pelo JS. -->
+        <div class="marquee-bleed reveal">
+          <div class="qt-carousel" id="qt-carousel" aria-label="Depoimentos de clientes">
+            <div class="pf-fade pf-fade--left" aria-hidden="true"></div>
+            <div class="pf-fade pf-fade--right" aria-hidden="true"></div>
+            <div class="pf-viewport">
+              <div class="qt-track">
+                <div class="qt-group">
+                  <blockquote class="quote">
+                    <p>"O site ficou do jeito que a gente sonhava. Agora os orçamentos chegam prontos
+                      pelo WhatsApp, todos os dias."</p>
+                    <footer>— Adelaide Festas &amp; Buffet</footer>
+                  </blockquote>
+                  <blockquote class="quote">
+                    <p>"Profissionalizou nossa imagem de vez. Depois que o site entrou no ar, passamos
+                      a fechar eventos maiores."</p>
+                    <footer>— My Drink Coquetelaria</footer>
+                  </blockquote>
+                  <blockquote class="quote">
+                    <p>"As reservas pelo site viraram rotina. Processo rápido e comunicação direta do
+                      início ao fim."</p>
+                    <footer>— Churrascaria Encantado</footer>
+                  </blockquote>
+                  <blockquote class="quote">
+                    <p>"Meus clientes chegam já sabendo o que querem visitar. O site virou meu cartão
+                      de visita."</p>
+                    <footer>— Josi Ferreira, Corretora de Imóveis</footer>
+                  </blockquote>
+                  <blockquote class="quote">
+                    <p>"Site moderno, no ar em poucas semanas e sem dor de cabeça. Exatamente o que
+                      a imobiliária precisava."</p>
+                    <footer>— Sejur Imobiliária</footer>
+                  </blockquote>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA FINAL ===== -->
+    <section class="section cta-final" id="contato">
+      <div class="container cta-final__inner reveal">
+        <h2 class="cta-final__title">Pronto pra <em>começar?</em></h2>
+        <p class="cta-final__text">Conta pra gente o que o seu negócio precisa. A resposta vem de quem
+          vai colocar a mão no projeto.</p>
+        <div class="hero__actions">
+          <a href="https://wa.me/5531986445272?text=Ol%C3%A1!%20Quero%20um%20site%20com%20a%20%C3%93rbita."
+             class="btn btn--primary" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+          <a href="https://agenciaorbita.online/" class="btn btn--ghost" target="_blank" rel="noopener">Conhecer a agência</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== FAQ (última seção antes do rodapé) ===== -->
+    <section class="section section--alt" id="faq">
+      <div class="container container--narrow">
+        <h2 class="section__title reveal">Perguntas frequentes</h2>
+        <div class="faq reveal">
+          <details class="faq__item">
+            <summary>Como funciona o processo?</summary>
+            <p>Briefing rápido para entender objetivo e público → proposta fechada → design e
+              desenvolvimento → sua revisão → publicação. Você acompanha cada etapa falando direto
+              com quem executa.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Quanto tempo leva para entregar?</summary>
+            <p>Depende do escopo: uma landing page é mais rápida que um site completo com sistema.
+              O prazo é definido na proposta e cumprido.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Atendem negócios de que tamanho?</summary>
+            <p>Do autônomo que está começando no digital à empresa que precisa escalar a operação.
+              A estrutura é desenhada para o seu momento.</p>
+          </details>
+          <details class="faq__item">
+            <summary>Preciso já ter identidade visual?</summary>
+            <p>Não. Se você já tem, aplicamos com consistência. Se não tem, direcionamos o essencial
+              para o site nascer com cara profissional.</p>
+          </details>
+          <details class="faq__item">
+            <summary>O site fica pronto para integrações?</summary>
+            <p>Sim. Toda entrega já nasce preparada para receber integrações que precisar, basta nos
+              informar a necessidade.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== RODAPÉ ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <p class="footer__brandline">
+          <img src="assets/logo-icon.png" alt="" class="logo-icon">
+          <span class="logo-text">ÓRBITA<span class="logo-dot">.</span></span>
+        </p>
+        <p>Sites, landing pages e sistemas que giram em torno do seu resultado.</p>
+      </div>
+      <nav class="footer__nav" aria-label="Links do rodapé">
+        <a href="#servicos">Serviços</a>
+        <a href="#para-quem">Para quem</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <div class="footer__social">
+        <a href="https://www.instagram.com/agenciaorbita.ia" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://agenciaorbita.online/" target="_blank" rel="noopener">agenciaorbita.online</a>
+      </div>
+    </div>
+    <p class="footer__copy">© 2026 Órbita. Todos os direitos reservados. · Vale do Aço, MG</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
